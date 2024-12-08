@@ -33,14 +33,15 @@ Ensure the following are installed:
    ```bash
    git clone https://github.com/himansh0001/driver-drowsiness-detection.git
    cd driver-drowsiness-detection
-Install dependencies:
+2. Install dependencies:
 
 bash
 Copy code
 pip install opencv-python numpy dlib imutils
-Place the shape_predictor_68_face_landmarks.dat file in the project directory.
 
-Usage
+3. Place the shape_predictor_68_face_landmarks.dat file in the project directory.
+
+#Usage
 Run the script:
 
 bash
@@ -53,27 +54,27 @@ Drowsy !
 SLEEPING !!!
 Press Esc to exit the program.
 
-Code Overview
-Core Functions
-compute(ptA, ptB): Calculates Euclidean distance between two points.
-blinked(a, b, c, d, e, f): Determines if the eye is open, partially closed, or fully closed based on the Eye Aspect Ratio (EAR).
-Main Workflow
-Capture Frames: Uses OpenCV to capture frames from the webcam.
-Face Detection: Detects faces using Dlib's frontal face detector.
-Facial Landmark Detection: Identifies 68 facial landmarks, focusing on eye landmarks.
-Eye Blink Analysis: Computes the EAR to classify blink states.
-Status Monitoring: Updates the driver's status (Active, Drowsy, or Sleeping) based on the blink analysis.
-Screenshots
+## Code Overview
+# Core Functions
+1. compute(ptA, ptB): Calculates Euclidean distance between two points.
+2. blinked(a, b, c, d, e, f): Determines if the eye is open, partially closed, or fully closed based on the Eye Aspect Ratio (EAR).
+# Main Workflow
+1. Capture Frames: Uses OpenCV to capture frames from the webcam.
+2. Face Detection: Detects faces using Dlib's frontal face detector.
+3. Facial Landmark Detection: Identifies 68 facial landmarks, focusing on eye landmarks.
+4. Eye Blink Analysis: Computes the EAR to classify blink states.
+5. Status Monitoring: Updates the driver's status (Active, Drowsy, or Sleeping) based on the blink analysis.
+## Screenshots
 Real-Time Detection
 Coming soon.
 
-Acknowledgments
-Dlib for providing the pre-trained facial landmark model.
-OpenCV for real-time image processing.
-NumPy for efficient numerical calculations.
+## Acknowledgments
+1. Dlib for providing the pre-trained facial landmark model.
+2. OpenCV for real-time image processing.
+3. NumPy for efficient numerical calculations.
 
 
-Author
+# Author
 Himansh
 https://github.com/himansh0001
 
