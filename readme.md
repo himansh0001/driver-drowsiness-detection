@@ -40,7 +40,6 @@ pip install opencv-python numpy dlib imutils
 ```
 3. Place the shape_predictor_68_face_landmarks.dat file in the project directory.
 
-#Usage
 Run the script:
 
 ```bash
@@ -48,10 +47,10 @@ python drowsiness_detection.py
 ```
 # The system will start accessing your webcam and detecting facial landmarks. It will classify the driver's state as:
 
--Active :)
--Drowsy !
--SLEEPING !!!
--Press Esc to exit the program.
+1. Active :)
+2. Drowsy !
+3. SLEEPING !!!
+4. Press Esc to exit the program.
 
 ## Code Overview
 # Core Functions
@@ -64,7 +63,6 @@ python drowsiness_detection.py
 4. Eye Blink Analysis: Computes the EAR to classify blink states.
 5. Status Monitoring: Updates the driver's status (Active, Drowsy, or Sleeping) based on the blink analysis.
 ## Screenshots
-Real-Time Detection
 Coming soon.
 
 ## Acknowledgments
