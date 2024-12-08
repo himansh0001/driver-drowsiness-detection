@@ -35,24 +35,23 @@ Ensure the following are installed:
    cd driver-drowsiness-detection
 2. Install dependencies:
 
-bash
-Copy code
+```bash
 pip install opencv-python numpy dlib imutils
-
+```
 3. Place the shape_predictor_68_face_landmarks.dat file in the project directory.
 
 #Usage
 Run the script:
 
-bash
-Copy code
+```bash
 python drowsiness_detection.py
-The system will start accessing your webcam and detecting facial landmarks. It will classify the driver's state as:
+```
+# The system will start accessing your webcam and detecting facial landmarks. It will classify the driver's state as:
 
-Active :)
-Drowsy !
-SLEEPING !!!
-Press Esc to exit the program.
+-Active :)
+-Drowsy !
+-SLEEPING !!!
+-Press Esc to exit the program.
 
 ## Code Overview
 # Core Functions
@@ -76,5 +75,5 @@ Coming soon.
 
 # Author
 Himansh
-https://github.com/himansh0001
+<https://github.com/himansh0001>
 
